@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    margin: auto;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    
+    /* border: 1px solid black; */
+}
+.navbar nav
+{
+    width:88vw;
+    height: 10vh;
+    display:flex ;
+    justify-content: space-between;
+    align-items: end;
+    position: absolute;
+   
+}
+.logo
+{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.menulist
+{
+    width: 50vw;
+    list-style: none;
+    display: flex;
+    color: #000;
+    justify-content: space-evenly;
+}
+.menulist li a
+{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn
+{
+    width: 16vw;
+    display: flex;
+    justify-content: space-between;
+}
+.btn a
+{
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background: #7835E7;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-weight: 600;
+    color: #fefefe;
+}
+.home
+{
+    min-height: 110vh;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centertext
+{
+    position: relative;
+    font-size: 3.5rem;
+    margin: 25vh 0 0 0;
+    background:linear-gradient(#000000,#0e0e0e, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.mainglass
+{
+    margin-top: 18vh;
+    min-width: 90vw;
+    min-height: 42vh;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(11px) saturate(123%);
+    -webkit-backdrop-filter: blur(5px) saturate(123%);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.cls
+{
+    margin: 20px;
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+}
+.sel
+{
+    
+    backdrop-filter: blur(11px) saturate(123%);
+    -webkit-backdrop-filter: blur(5px) saturate(123%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 10px 12px;
+}
+.clstxt
+{
+    font-weight: 600;
+    text-decoration: none; 
+    color: #000;
+}
+.act
+{
+    border: 1px solid black;
+}
+.fromto
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fromtosym
+{
+    border-radius: 80%;
+    height: fit-content;
+    display: flex;
+    margin-top:7vh;
+    margin-left: -3vw;
+    margin-right: -3vw;
+    justify-content: center;
+    backdrop-filter: blur(11px) saturate(123%);
+    -webkit-backdrop-filter: blur(5px) saturate(123%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 10px 12px;
+}
+.from
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20vw;
+    height: 22vh;
+    backdrop-filter: blur(11px) saturate(123%);
+    -webkit-backdrop-filter: blur(5px) saturate(123%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 10px 12px;
+}
+.inp
+{
+    background-color: transparent;
+    offset: none;
+    border: none;
+    height: 8vh;
+    text-align: start;
+    /* border-bottom: #000000ff 1px solid; */
+}
+.inp:focus
+{
+    outline: none;
+}
+.sel1
+{
+    margin-top: -5vh;
+    backdrop-filter: blur(0px) saturate(123%);
+    -webkit-backdrop-filter: blur(5px) saturate(123%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 10px 12px;
+}
+.offers
+{
+    margin: 10vh 0vw;
+    min-height: 100vh;
+    padding: 0vh 5vw;
+}
+
+.head
+{
+    color: #000000de;
+    text-align: center;
+    font-size: 50px;
+}
+
+.txt{
+    color: #00000050;
+    font-size: 30px;
+}
+.spoffers
+{
+    margin: 15vh 10vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    "main china italy"
+    "main malaysia peru1";
+    gap: 0px 0px;
+}
+.main{
+    width: 20vw;
+    height: 60vh;
+    background-image: url(../images/Rectangle14.png);
+    background-size: cover;
+    border-radius: 10%;
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    grid-area: main;
+}
+.txtbox
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.china
+{
+    width: 15vw;
+    height: 25vh;
+    grid-area: china;
+}
+.italy
+{
+    width: 15vw;
+    height: 25vh;
+    grid-area: italy;
+}
+.malaysia
+{
+    width: 15vw;
+    height: 25vh;
+    grid-area: malaysia;
+}
+.peru
+{
+    grid-area: peru1;
+}
