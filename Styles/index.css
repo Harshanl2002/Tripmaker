@@ -200,11 +200,12 @@
 {
     margin: 15vh 10vw;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 21vw 22vw 15vw;
+    gap: 2vw 2vw 2vw;
+    row-gap: 0 0 0; 
     grid-template-areas: 
     "main china italy"
     "main malaysia peru1";
-    gap: 0px 0px;
 }
 .main{
     width: 20vw;
@@ -224,25 +225,73 @@
     font-weight: 800;
     margin-left: 10px;
 }
+.txtbox1
+{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.txtbox1 span{
+    font-size: 12px;
+}
 .china
 {
-    width: 15vw;
-    height: 25vh;
+    width: 20vw;
+    height: 29vh;
+    background-image: url(../images/Rectangle\ 15.png);
+    background-size: cover;
+    border-radius: 15%;
     grid-area: china;
+    /* margin-top: 5vh; */
+    display: flex;
+    justify-content: start;
+    align-items:end;
+    line-height: 20px;
 }
 .italy
 {
-    width: 15vw;
-    height: 25vh;
+    width: 20vw;
+    height: 29vh;
+    /* margin-top: 5vh; */
     grid-area: italy;
+    background-image: url(../images/Rectangle16.png);
+    background-size: cover;
+    border-radius: 10%;
+    display: flex;
+    justify-content: start;
+    align-items:end;
+    line-height: 20px;
 }
-.malaysia
+.Malaysia
 {
-    width: 15vw;
-    height: 25vh;
+    width: 20vw;
+    height: 29vh;
     grid-area: malaysia;
+    background-image: url(../images/Rectangle17.png);
+    background-size: cover;
+    border-radius: 10%;
+    display: flex;
+    justify-content: start;
+    align-items:end;
+    line-height: 20px;
 }
 .peru
 {
+    width: 20vw;
+    height: 29vh;
     grid-area: peru1;
+    background-image: url(../images/Rectangle18.png);
+    background-size: cover;
+    border-radius: 10%;
+    display: flex;
+    justify-content: start;
+    align-items:end;
+    line-height: 20px;
+}
+
+.offerscard
+{
+    min-height: 100vh;
 }
